@@ -1,0 +1,39 @@
+/* Footer Container */
+footer {
+  color: rgb(0, 0, 0); /* White text */
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Poppins', sans-serif; /* Modern font */
+}
+
+/* Footer Text */
+footer p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+/* Footer Link */
+footer a {
+  color: #ff7e5f; /* Light pinkish color for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #f9a1a1; /* Lighter color on hover */
+  transition: color 0.3s ease;
+}
+
+/* Responsive Styling for Footer */
+@media (max-width: 768px) {
+  footer p {
+    font-size: 12px; /* Smaller font size on mobile */
+  }
+}
